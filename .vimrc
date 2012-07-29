@@ -16,7 +16,7 @@ set showcmd
 " Включаем отображение дополнительной информации в статусной строке
 "set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&encoding}\ %b\ 0x%B\ %l,%c%V\ %P
 " цветовая схема
-colorscheme sweyla656741
+colorscheme sweyla429960 
 set tabstop=4
 set shiftwidth=4
 set smarttab
@@ -114,3 +114,4 @@ cmap <C-F> <C-^><C-R>=MyKeyMapHighlight()<CR><Left><Del>
 "    au BufWinLeave * mkview
 "    au BufWinEnter * silent loadview
 "endif
+
